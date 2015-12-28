@@ -1,23 +1,299 @@
-<html>
-<head>
-  <meta charset="utf-8">
-  <title>Squire rich-text editor tests</title>
-  <link rel="stylesheet" href="../node_modules/mocha/mocha.css" />
-</head>
-<body>
-  <script src="../node_modules/mocha/mocha.js"></script>
-  <script src="../node_modules/unexpected/unexpected.js"></script>
-  <script src="../build/squire-raw.js"></script>
-  <iframe id="testFrame" style="visibility: hidden;"></iframe>
-  <div id="mocha"></div>
-  <script>
-    mocha.setup('bdd');
-    var expect = weknowhow.expect;
-  </script>
-  <script src="squire.spec.js"></script>
-  <script>
-      mocha.run();
-  </script>
-</body>
-</html>
-
+<div id="compInfoData">
+           <div id="compInfoDataLeftCol">
+                <div="compInfo-section">
+                <h5>Financial Reporting/Disclosure</h5>
+              <tbody>
+                            <tr>
+                    <td>Reporting Statu</td>
+                    <td>International Reporting: Frankfurt Stock Exchange
+                    </td>
+                </tr>
+                <tr>
+                    <td>Audited Financials</td>
+                    <td>Audited</td>
+                </tr>
+                <tr>
+                    <td>Latest Report</td>
+                    <td><a href="/otciq/ajax/showFinancialReportById.pdf?id=146406">Sep 30, 2015 Quarterly Report</a></td>
+                </tr>
+                <tr>
+                    <td>CIK</td>
+                    <td>0001011311</td>
+                </tr>
+                <tr>
+                    <td>Fiscal Year End</td>
+                    <td>12/31</td>
+                </tr>
+                <tr>
+                    <td>OTC Marketplace</td>
+                    <td>OTCQX International Premier</td>
+                </tr>
+            </tbody>
+        </table>
+        </div>
+        <div class="compInfo-section">
+        <h5>Profile Data</h5>
+        <table class="table-small-left">
+            <tbody>
+                <tr>
+                    <td>SIC - Industry Classification</td>
+                    <td>3949 - Sporting and athletic goods, misc</td>
+                </tr>
+                <tr>
+                    <td><strong>Incorporated In:</strong></td>
+                    <td>Germany</td>
+                </tr>
+                <tr>
+                    <td><strong>Year of Inc.</strong></td>
+                    <td>1949</td>
+                </tr>
+                <tr>
+                    <td><strong>Employees</strong></td>
+                    <td>54335 a/o Jun 30, 2015</td>
+                </tr>
+            </tbody>
+        </table>
+        </div>
+        <div class="compInfo-section">
+        <h5>Company Officers/Contacts</h5>
+        <table class="table-small-left">
+            <tbody>
+                <tr>
+                    <td><strong>Herbert Hainer</strong></td>
+                    <td>CEO</td>
+                </tr>
+                <tr>
+                    <td><strong>Glenn Bennett</strong></td>
+                    <td>COO</td>
+                </tr>
+                <tr>
+                    <td><strong>Robin J. Stalker</strong></td>
+                    <td>CFO</td>
+                </tr>
+                <tr>
+                    <td><strong>Roland Auschel</strong></td>
+                    <td>CSO</td>
+                </tr>
+                <tr>
+                    <td><strong>Eric Liedtke</strong></td>
+                    <td>CBO</td>
+                </tr>
+            </tbody>
+        </table>
+        </div>
+        <div class="compInfo-section">
+        <h5>Company Directors</h5>
+        <table class="table-small-left">
+            <tbody>
+                <tr>
+                    <td>Not Available</td>
+                </tr>
+            </tbody>
+        </table>
+        </div>
+        <div class="compInfo-section">
+        <h5>Company Notes</h5>
+        <ul class="company-notes">
+            <li>Formerly=adidas-Salomon AG until 6-06</li>
+        </ul>
+        </div>
+        <div class="compInfo-section">
+        <div id="compInfo-serviceProviders">
+        <h5>Service Providers</h5>
+        <strong class="title">OTCQX Advisor</strong>
+        <div class="serviceProviders-section">
+        <a href="/research/service-provider/Deutsche-Bank-Trust-Company-Americas?id=2461&amp;b=n&amp;filterOn=4">Deutsche Bank Trust Company Americas</a><br>
+        60 Wall Street<br>
+        16th Floor<br>
+        New York,
+        NY,
+        10005<br>
+        USA<br>
+        <br>
+        </div>
+        <strong class="title">Accounting/Auditing Firm</strong>
+        <div class="serviceProviders-section">
+        Not Available
+        </div>
+        <strong class="title">Legal Counsel</strong>
+        <div class="serviceProviders-section">
+        Not Available
+        </div>
+        <strong class="title">Investor Relations Firm</strong>
+        <div class="serviceProviders-section">
+        Not Available
+        </div>
+        </div>
+        </div>
+        </div>
+        <!-- end left col --></td>
+        <td style="height:400px">
+        <div id="compInfoDataRightCol">
+        <div id="compInfo-securityDetails" class="subSection">
+        <h5 class="subSectionTitle">ADDYY Security Details
+        <span><a href="javascript:hideOrShowOtherSecurities();">Other Company Securities</a></span>
+        <span id="otherSecuritiesLinksArea" style="display:none;margin-left: 150px;">
+        <a href="/stock/ADDDF/company-info">ADDDF</a><br>
+        </span>
+        </h5>
+        <div class="compInfo-section">
+        <h5>Share Structure</h5>
+        <table class="table-small">
+            <tbody>
+                <tr>
+                    <td></td>
+                    <td>Market Value<sup>1</sup></td>
+                    <td>$19,839,564,025</td>
+                    <td>a/o Dec 24, 2015</td>
+                </tr>
+                <tr>
+                    <td class="trustedLogo"></td>
+                    <td>Authorized Shares</td>
+                    <td>Not Available</td>
+                </tr>
+                <tr>
+                    <td class="trustedLogo"></td>
+                    <td>Outstanding Shares</td>
+                    <td>200,197,417</td>
+                    <td>a/o Sep 30, 2015</td>
+                </tr>
+                <tr>
+                    <td class="trustedLogo"></td>
+                    <td class="outIndent">-Restricted</td>
+                    <td>Not Available</td>
+                </tr>
+                <tr>
+                    <td class="trustedLogo"></td>
+                    <td class="outIndent">-Unrestricted</td>
+                    <td>Not Available</td>
+                </tr>
+                <tr>
+                    <td class="trustedLogo"></td>
+                    <td>Held at DTC</td>
+                    <td>Not Available</td>
+                </tr>
+                <tr>
+                    <td class="trustedLogo"></td>
+                    <td>Float</td>
+                    <td>Not Available</td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>Par Value</td>
+                    <td>
+                    No Par Value
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        </div>
+        <div class="compInfo-section">
+        <h5>Transfer Agent(s)
+        </h5>
+        <table class="table-small" id="ta-table">
+            <tbody>
+                <tr>
+                    <td><a href="/research/service-provider/Deutsche-Bank-Trust-Company-Americas?id=2461&amp;b=n&amp;filterOn=6">Deutsche Bank Trust Company Americas</a></td>
+                </tr>
+            </tbody>
+        </table>
+        </div>
+        <div class="compInfo-section">
+        <h5>Shareholders</h5>
+        <table class="table-small">
+            <tbody>
+                <tr>
+                    <td>Shareholders of Record</td>
+                    <td>Not Available</td>
+                </tr>
+            </tbody>
+        </table>
+        </div>
+        <div class="compInfo-section" id="corp-actions" style="display: block;">
+        <h5>Corporate Actions</h5>
+        <table class="table-small">
+            <thead>
+                <tr>
+                    <th scope="col"></th>
+                    <th scope="col">Ex. Date</th>
+                    <th scope="col">Record Date</th>
+                    <th scope="col">Pay Date</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="odd">
+<script language="JavaScript">document.getElementById("corp-actions").style.display = 'block';</script><td title="">Dividend (0.601)</td>
+<td>May 05, 2015</td>
+<td>May 07, 2015</td>
+<td>May 15, 2015</td>
+</tr>
+<tr class="odd">
+<script language="JavaScript">document.getElementById("corp-actions").style.display = 'block';</script><td title="">Dividend (0.7411)</td>
+<td>May 06, 2014</td>
+<td>May 08, 2014</td>
+<td>May 16, 2014</td>
+</tr>
+<tr class="odd">
+<script language="JavaScript">document.getElementById("corp-actions").style.display = 'block';</script><td title="">Dividend (0.632)</td>
+<td>May 06, 2013</td>
+<td>May 08, 2013</td>
+<td>May 16, 2013</td>
+</tr>
+<tr>
+    <td class="odd" style="font-size: 0.35em;">&nbsp;</td>
+</tr>
+<tr>
+    <td class="odd" style="font-size: 0.75em;" colspan="2">Dividends are not adjusted for stock splits</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="compInfo-section" id="security-note" style="display: block;">
+<h5>Security Notes</h5>
+<table class="table-small">
+    <tbody>
+        <tr>
+            <td>
+            <ul class="security-notes">
+<script language="JavaScript">document.getElementById("security-note").style.display = 'block';</script><li>Capital Change=shs increased by 4 for 1 split. Ex-date=06/13/2006. Rec date=06/08/2006. Pay date=06/12/2006.</li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="compInfo-section">
+<h5>Non US Stock Exchange Listing</h5>
+<table class="table-small">
+    <tbody>
+        <tr>
+            <td>ADS - Frankfurt Stock Exchange - <a href="/services/companies/otcqx-international/qualified-exchange-list">Qualified</a></td>
+        </tr>
+    </tbody>
+</table>
+</div>
+<div class="compInfo-section">
+<h5>Short Selling Data</h5>
+<table class="table-small">
+    <tbody>
+        <tr>
+            <td>Short Interest</td>
+            <td><a href="/stock/ADDYY/short-sales">42,052 (-77.32%)<br>
+            Nov 30, 2015</a></td>
+        </tr>
+        <tr>
+            <td>Significant Failures to Deliver</td>
+            <td>
+            No
+            </td>
+        </tr>
+    </tbody>
+</table>
+</div>
+</div>
+</div>
+<!-- end right col -->
+</td>
+</tr>
+</tbody></table>
+</div>
